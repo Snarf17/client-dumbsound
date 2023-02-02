@@ -174,7 +174,7 @@ function Pay() {
                 <Dropdown>
                     <Dropdown.Toggle className='bg-transparent' style={{border: 'none'}} >
                         {/* <Image style={{cursor:'pointer'}} src="../../icon/icon-action.png"/> */}
-                        <Button className="btn-orange-pay" style={{width:300}} >Premium 7/hari ( IDR. 40,000,00 )</Button>
+                        <Button className="btn-orange-pay" style={{width:350}} >Premium 7/Days ( IDR. 40,000,00 )</Button>
                     </Dropdown.Toggle>
                     <Dropdown.Menu className="bg-dark text-center w-50">
                          <Dropdown.Item className="text-success" onClick={() => PayPremium7.mutate()}>Pay Now</Dropdown.Item>
@@ -184,7 +184,7 @@ function Pay() {
                 <Dropdown>
                     <Dropdown.Toggle className='bg-transparent' style={{border: 'none'}} >
                         {/* <Image style={{cursor:'pointer'}} src="../../icon/icon-action.png"/> */}
-                        <Button className="btn-orange-pay" style={{width:300}} >Premium 14/hari ( IDR. 70,000,00 )</Button>
+                        <Button className="btn-orange-pay" style={{width:350}} >Premium 14/Days ( IDR. 70,000,00 )</Button>
                     </Dropdown.Toggle>
                     <Dropdown.Menu className="bg-dark text-center w-50">
                          <Dropdown.Item className="text-success" onClick={() => PayPremium14.mutate()}>Pay Now</Dropdown.Item>
@@ -194,7 +194,7 @@ function Pay() {
                 <Dropdown>
                     <Dropdown.Toggle className='bg-transparent' style={{border: 'none',}} >
                         {/* <Image style={{cursor:'pointer'}} src="../../icon/icon-action.png"/> */}
-                        <Button className="btn-orange-pay" style={{width:300}} >Premium 30/hari ( IDR. 100,000,00 )</Button>
+                        <Button className="btn-orange-pay" style={{width:350}} >Premium 30/Days ( IDR. 100,000,00 )</Button>
                     </Dropdown.Toggle>
                     <Dropdown.Menu className="bg-dark text-center w-50">
                          <Dropdown.Item className="text-success" onClick={() => PayPremium30.mutate()}>Pay Now</Dropdown.Item>
