@@ -103,8 +103,8 @@ function ModalRegister({register, handleregister}) {
               </Form.Group>
               <Form.Select aria-label="Gender" className='mb-3 bg-dark text-white' name='gender' onChange={handleOnChange}> 
                 <option className='text-secondary' hidden>-- Gender -- </option>
-                <option value="pria">Laki</option>
-                <option value="wanita">Perempuan</option>
+                <option value="pria">Male</option>
+                <option value="wanita">Female</option>
               </Form.Select>
               <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                 <Form.Control

@@ -58,9 +58,9 @@ function ModalLogin({show, handle}) {
       })
     }
 
-    // setInterval(() => {
-    //   navigate(0)
-    // },1000)
+    setInterval(() => { 
+      navigate(0)
+    },1000)
   })
 
   
